@@ -6,11 +6,6 @@ function toggleAbout() {
         about.style.display = "block";
         home.style.display = "none";
     }
-
-    else if (home.style.display = "none") {
-        about.style.display = "none";
-        home.style.display = "block"; 
-    }
 }
 
 function back() {
