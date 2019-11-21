@@ -1,12 +1,32 @@
 <head>
     <title>Collin Werner</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="scripts.js"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h1>hello, world</h1>
-    <p>coming soon</p>
+    <div class="left-container">
+        <h1>collin werner</h1>
+
+        <p>software engineer</p>
+        <p>musician</p>
+        <p>coffee addict</p>
+    </div>
+    
+    <div class="right-container" id="home">
+        <h1>stuff</h1>
+
+        <div id="links">
+            <button onclick="toggleAbout()">about me</button>
+            <a href="https://github.com/collinw9898">github</a>
+            <a href="">resume</a>
+        </div>
+    </div>
+
+    <div class="right-container" id="about">
+        <h1>hi</h1>
+        <button onclick="back()">back</button>
+    </div>
 </body>

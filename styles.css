@@ -1,14 +1,64 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    margin: 5em;
-    color: #ffffff;
-    font-size: 3ch;
+    height: 15em;
 
-    background-color: #303f9f;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    font-size: 2ch;
+
+    margin: 5em;
+    display: flex;
+    justify-content: center;
+
+    background-color: #EEEEEE;
 }
 
 h1 {
     font-family: 'Comfortaa', cursive;
-    font-size: 5ch;
+    font-size: 3.5ch;
+}
+
+a {
+    margin: 10px;
+
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: #FF824D;
+}
+
+/* i want the button to look like a normal link */
+button {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: #FF824D;
+
+    cursor: pointer;
+  }
+
+.left-container {
+    padding-right: 4em;
+    border-right: 1px solid #FF824D;
+
+    align-items: center;
+}
+
+.right-container {
+    padding-left: 4em;
+    border-left: 1px solid #FF824D;
+
+    width: 20em;
+}
+
+#links {
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#about {
+    display: none;
 }
