@@ -7,7 +7,7 @@ body {
 
     margin: 5em;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 
     background-color: #EEEEEE;
 }
@@ -45,14 +45,14 @@ button {
     padding-right: 4em;
     border-right: 1px solid #FF824D;
 
-    align-items: center;
+    text-align: right;
 }
 
 .right-container {
     padding-left: 4em;
     border-left: 1px solid #FF824D;
 
-    width: 30em;
+    text-align: left;
 }
 
 #links {
