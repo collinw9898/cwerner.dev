@@ -9,24 +9,21 @@ p {
 
 .bio {
     display: flex;
+
+    margin: auto;
+    margin-top: 4rem;
+    width: 70%;
 }
 
 .info {
-    margin-top: 4rem;
-    margin-left: 8rem;
+    margin-right: 2rem;
     padding: 3rem;
 }
 
 .about {
-    margin-top: 4rem;
-    margin-left: 4rem;
-    margin-right: 8rem;
-    padding: 3rem;
-
-    width: 600px;
-    height: 300px;
+    margin-left: 2rem;
+    padding: 3rem; 
 
     background-color: #e8eaf6;
-
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }

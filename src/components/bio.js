@@ -1,13 +1,14 @@
 import React from "react"
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import styles from "../styles/bio.module.css"
+import bioPic from "../../static/bioPic.svg"
 
 export default () => (
     <div className={styles.bio}>
         <div className={styles.info}>
             <h1>Collin Werner</h1>
 
-            <img src="temp.svg" alt="me" />
+            <img src={bioPic} alt="me" />
             
             <p>Software Developer</p>
             <p>Musician</p>
@@ -18,7 +19,7 @@ export default () => (
                     <FaGithub style={{fontSize: '1.5em', color: 'black', margin: '5px'}} />
                 </a>
 
-                <a href="https://www.linkedin.com/in/collin-werner-505954135/">
+                <a href="https://linkedin.com/in/collin-werner-505954135/">
                     <FaLinkedin style={{fontSize: '1.5em', color: 'black', margin: '5px'}} />
                 </a>
             </span>
