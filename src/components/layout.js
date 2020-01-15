@@ -1,21 +1,23 @@
 import React from "react"
-import { FaHeart } from 'react-icons/fa';
+import { Link } from "gatsby"
 import styles from "../styles/layout.module.css"
 
 export default ({children}) => (
     <div>
         <header className={styles.header}>
-            <ul style={{listStyle: 'none' }}>
-                <li style={{ display: `inline-block`, marginLeft: `1rem` }}>Home</li>
-                <li style={{ display: `inline-block`, marginLeft: `1rem` }}>Projects</li>
-                <li style={{ display: `inline-block`, marginLeft: `1rem` }}>Resume</li>
+            <ul className={styles.headerLinks}>
+                <li>
+                    <Link to='/'>Home</Link>
+                </li>
+                <li>
+                    <Link to='/projects'>Projects</Link>
+                </li>
+                <li>
+                    <Link to='/resume'>Resume</Link>
+                </li>
             </ul>
         </header>
 
         {children}
-
-        <footer className={styles.footer}>
-            Made with <FaHeart /> in Cleveland
-        </footer>
     </div>
 )

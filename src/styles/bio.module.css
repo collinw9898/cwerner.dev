@@ -3,27 +3,48 @@ h1 {
 }
 
 p {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.7rem;
     font-size: 1.15em;
 }
 
 .bio {
-    display: flex;
-
-    margin: auto;
-    margin-top: 4rem;
-    width: 70%;
+    text-align: center;
 }
 
 .info {
-    margin-right: 2rem;
-    padding: 3rem;
+    padding-bottom: 1rem;
 }
 
 .about {
-    margin-left: 2rem;
-    padding: 3rem; 
+    padding: 3rem;
 
     background-color: #e8eaf6;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+/* desktop stylings */
+@media (min-width: 768px) {
+    /* needed so the footer goes to the bottom of the page */
+    html {
+        height: 100%;
+    }
+
+    .bio {
+        display: flex;
+
+        margin: auto;
+        margin-top: 4rem;
+        width: 70%;
+
+        text-align: left;
+    }
+
+    .info {
+        margin-right: 2rem;
+        padding: 3rem;
+    }
+
+    .about {
+        margin-left: 2rem;
+    }
 }
