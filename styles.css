@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    margin: 10em;
+    font-size: larger;
+    font-family: Ubuntu, 'Times New Roman', Times, serif;
+
+    background-color: #14213d;
+    color: #ffffff;
+}
+
+a {
+    margin: 0.25em;
+    color: inherit;
+    text-decoration: none;
+    font-size: 50px;
+}
